@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 70px;
+    background: #000;
+
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+.navbar-itens {
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 70;
+    line-height: 70px;
+    margin: 0;
+    right: 0;
+    width: 386.299px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.navbar-itens li {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 9px;
+    display: inline-block;
+
+}
+
+.navbar-itens li a {
+    display: flex;
+    width: 70.507px;
+    height: 14px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-family: Roboto;
+    transition: 5s;
+}
+
+.navbar-itens li a :hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.main-banner {
+    background-image: url(/Assets/img/wallpaperMagica.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 570px;
+}
+
+.main-banner h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding-top: 8%;
+}
+
+.main-banner h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.descricao-container {
+    padding: 5em 0;
+}
+
+.descricao-container ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.descricao-container ul li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-shield-halved {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #1A9207;
+}
+
+.fa-rocket {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #CE0404;
+}
+
+.fa-comments {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #CE0404;
+}
+
+.descricao-container ul li h3 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #000;
+    text-align: center;
+}
+
+.planos-precos {
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.planos-precos h2 {
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #000;
+}
+
+.planos-precos h3 {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #000;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.plan {
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan ul li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #D9D9D9;
+    color: #000;
+}
+
+.plan .preco {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    color: #FFF;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+
+
+}
+
+.plan .verde {
+
+    background-color: #076A1D;
+
+}
+
+.plan .vermelho {
+    background-color: #891A1A;
+
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-weight: 900;
+    padding-top: 50px;
+    height: 110px;
+    flex-shrink: 0;
+    color: #FFF;
+    background: #000;
+    text-align: center;
+
+}
+
+.plan .plan-btn {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 75px;
+    height: 75px;
+}
+.buscar-dominio{
+    background-color: #000;
+    text-align: center;
+    padding: 5em;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+.buscar-dominio input[type=text]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+.buscar-dominio input[type=submit]{
+    background-color: #68ff53;
+    color: #FFF;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34px;
+}
+.buscar-dominio input[type=submit]:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+    background-color: #0d8a39;
+
+}
+.contato-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+
+}
+.contato-container h2{
+    font-size: 36px;
+}
+.contato-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contato-container input, .contato-container textarea{
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+.contato-container input[type=submit]{
+   display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: #58eb41;
+}
+.contato-container input[type=submit]:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+    background-color: #0d8a39;
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+footer p{
+    color: #D9D9D9;
+}
